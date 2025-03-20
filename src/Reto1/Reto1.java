@@ -47,7 +47,7 @@ public class Reto1 {
         System.out.println("Introduce una letra:");
         char letra = sc.next().charAt(0);
 
-        Boolean vocal = false;
+        boolean vocal = false;
         for (char c : vocales) {
             if (letra == c) {
                 vocal = true;
