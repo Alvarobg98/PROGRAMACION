@@ -70,9 +70,9 @@ public class EjerciciosClase3 {
         int a = 10;
         int b = 3;
 
-        System.out.println("Division entera: " + (10 / 3));
+        System.out.println("Division entera: " + (a / b));
 
-        double div = (double) 10 / 3;
+        double div = (double) a / b;
         System.out.println("Division con decimales: " + div);
         System.out.println("-------------------------------------------------");
 
