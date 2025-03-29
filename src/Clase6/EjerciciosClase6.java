@@ -1,7 +1,6 @@
 package Clase6;
 
 import java.util.InputMismatchException;
-import java.util.Random;
 import java.util.Scanner;
 
 public class EjerciciosClase6 {
@@ -61,7 +60,7 @@ public class EjerciciosClase6 {
 
             System.out.println("Resultado: " + div);
         } catch (ArithmeticException e) {
-            System.out.println("[ArithmeticException]: division entre 0");;
+            System.out.println("[ArithmeticException]: division entre 0");
         }
 
         // Ejercicio 6 – Acceder a una posición no válida de una cadena (charAt) con control de excepción
@@ -90,7 +89,7 @@ public class EjerciciosClase6 {
 
             System.out.println("Resultado: " + div);
         } catch (ArithmeticException e) {
-            System.out.println("[ArithmeticException]: division entre 0");;
+            System.out.println("[ArithmeticException]: division entre 0");
         } finally {
             System.out.println("Operacion terminada");
         }
